@@ -6,7 +6,11 @@ import { PatientForm } from "@/components/forms/PatientForm";
 import { PasskeyModal } from "@/components/PasskeyModal";
 
 const Home = ({ searchParams }: SearchParamProps) => {
-  if (!searchParams?.redirect && searchParams?.redirect !== "false") {
+  if (
+    !searchParams?.redirect &&
+    searchParams?.redirect !== "false" &&
+    !searchParams?.admin
+  ) {
     redirect("/home");
   }
 
