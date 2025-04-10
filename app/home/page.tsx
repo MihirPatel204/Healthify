@@ -10,7 +10,7 @@ const Homepage = () => {
           src="/assets/icons/logo-full.svg"
           height={100}
           width={200}
-          alt="CarePulse Logo"
+          alt="Healthify Logo"
           className="h-12 w-auto"
         />
         <Link
@@ -28,7 +28,7 @@ const Homepage = () => {
             Healthcare Simplified
           </span>
           <h1 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-blue-500">
-            Welcome to CarePulse
+            Welcome to Healthify
           </h1>
           <p className="text-xl text-dark-700 mb-10 max-w-2xl mx-auto leading-relaxed">
             Your comprehensive healthcare platform for managing patient care
@@ -126,10 +126,10 @@ const Homepage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold mb-4 text-white">
-                About CarePulse
+                About Healthify
               </h2>
               <p className="text-dark-700 mb-4">
-                CarePulse is a cutting-edge healthcare management platform
+                Healthify is a cutting-edge healthcare management platform
                 designed to streamline patient care, administrative tasks, and
                 healthcare operations.
               </p>
@@ -170,7 +170,7 @@ const Homepage = () => {
                   src="/assets/images/doctor-dashboard.png"
                   width={500}
                   height={350}
-                  alt="Doctor using CarePulse"
+                  alt="Doctor using Healthify"
                   className="rounded-lg"
                 />
               </div>
@@ -190,7 +190,7 @@ const Homepage = () => {
                 role: "Cardiologist",
                 image: "/assets/images/testimonial-1.jpg",
                 quote:
-                  "CarePulse has transformed how I manage my practice. The intuitive interface saves me hours each week.",
+                  "Healthify has transformed how I manage my practice. The intuitive interface saves me hours each week.",
               },
               {
                 name: "Mark Wilson",
@@ -204,7 +204,7 @@ const Homepage = () => {
                 role: "Family Physician",
                 image: "/assets/images/testimonial-3.jpg",
                 quote:
-                  "Patient engagement has improved significantly since we started using CarePulse's patient portal.",
+                  "Patient engagement has improved significantly since we started using Healthify's patient portal.",
               },
             ].map((testimonial, index) => (
               <div
@@ -254,7 +254,7 @@ const Homepage = () => {
             <div>
               <h2 className="text-3xl font-bold mb-4 text-white">Contact Us</h2>
               <p className="text-dark-700 mb-6">
-                Have questions about CarePulse? Our team is here to help. Fill
+                Have questions about Healthify? Our team is here to help. Fill
                 out the form and we'll get back to you as soon as possible.
               </p>
               <div className="space-y-4">
@@ -297,7 +297,7 @@ const Homepage = () => {
                   </div>
                   <div>
                     <h3 className="text-white font-medium">Email</h3>
-                    <p className="text-dark-700">support@carepulse.com</p>
+                    <p className="text-dark-700">support@Healthify.com</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -411,7 +411,7 @@ const Homepage = () => {
               src="/assets/icons/logo-full.svg"
               height={80}
               width={160}
-              alt="CarePulse Logo"
+              alt="Healthify Logo"
               className="h-8 w-auto mb-4"
             />
             <p className="text-dark-700 mb-4">
@@ -498,7 +498,7 @@ const Homepage = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8 border-t border-dark-500">
           <p className="text-dark-700">
-            © 2025 CarePulse. All rights reserved.
+            © 2025 Healthify. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link
