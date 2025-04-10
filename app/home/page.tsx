@@ -276,7 +276,7 @@ const Homepage = () => {
                   </div>
                   <div>
                     <h3 className="text-white font-medium">Phone</h3>
-                    <p className="text-dark-700">(888) 123-4567</p>
+                    <p className="text-dark-700">635-660-3075</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -325,9 +325,9 @@ const Homepage = () => {
                   <div>
                     <h3 className="text-white font-medium">Location</h3>
                     <p className="text-dark-700">
-                      123 Healthcare Ave, Suite 200
+                      123, Sindhu Bhavan Rd, Bopal
                     </p>
-                    <p className="text-dark-700">San Francisco, CA 94158</p>
+                    <p className="text-dark-700">Ahmedabad, Gujarat</p>
                   </div>
                 </div>
               </div>
