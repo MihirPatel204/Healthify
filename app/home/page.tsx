@@ -14,7 +14,7 @@ const Homepage = () => {
           className="h-10 w-auto"
         />
         <Link
-          href="/"
+          href="/?redirect=false"
           className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-md transition-colors"
         >
           Sign In
@@ -30,7 +30,7 @@ const Homepage = () => {
           </p>
           <div className="flex gap-4 justify-center">
             <Link
-              href="/"
+              href="/?redirect=false"
               className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md text-lg transition-colors"
             >
               Sign In
